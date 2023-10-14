@@ -87,5 +87,5 @@ twitch_miner = TwitchChannelPointsMiner(
 
 
 
-twitch_miner = TwitchChannelPointsMiner("Sitolam")
+twitch_miner = TwitchChannelPointsMiner("USERNAME")
 twitch_miner.mine(followers=True)
