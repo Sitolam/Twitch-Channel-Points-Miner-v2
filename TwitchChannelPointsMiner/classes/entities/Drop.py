@@ -6,20 +6,9 @@ from TwitchChannelPointsMiner.utils import percentage
 
 class Drop(object):
     __slots__ = [
-        "id",
         "name",
         "benefit",
         "minutes_required",
-        "has_preconditions_met",
-        "current_minutes_watched",
-        "drop_instance_id",
-        "is_claimed",
-        "is_claimable",
-        "percentage_progress",
-        "end_at",
-        "start_at",
-        "dt_match",
-        "is_printable",
     ]
 
     def __init__(self, dict):
